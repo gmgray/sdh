@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "type": "shell",
+    "command": "go",
+    "cwd": "${workspaceFolder}",
+    "tasks": [
+        {
+            "label": "build",
+            "args": ["build", "-v", "-o", "build", "./..."],
+            "group": "build",
+        },
+        
+    ],
+}
